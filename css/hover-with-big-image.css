@@ -1,0 +1,9 @@
+div.container a{
+    display: block;
+    width: 50px;
+    height: 100px;
+    background: url(../img/hover-with-big-image.png) no-repeat;
+}
+div.container a:hover {
+    background-position-x: -50px;
+}
