@@ -7,6 +7,9 @@ body {
     text-align: left;
     padding-left: 15px;
 }
+body.hoge{
+    background-color: white;
+}
 h2 {
     display: block;
     font-size: 1.5em;
@@ -15,5 +18,9 @@ h2 {
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
     font-weight: normal;
+}
+div.hoge img{
+    margin-left: 10px;
+    float: right;
 }
 
