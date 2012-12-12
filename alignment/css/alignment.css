@@ -4,26 +4,16 @@ body {
     height: 600px;
     background-color: pink;
     border: black 1px solid;
+    text-align: left;
+    padding-left: 15px;
 }
 h2 {
     display: block;
     font-size: 1.5em;
-    -webkit-margin-before: 0.0em;
+    -webkit-margin-before: 3em;
     -webkit-margin-after: 15em;
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
     font-weight: normal;
-}
-dl {
-    padding: 0;
-    margin-bottom: 50px;
-}
-dt {
-    font-weight: bold;
-    font-size: 20px;
-}
-dd {
-    /* -webkit-margin-start: 0px; */
-    font-size: 15px;
 }
 
