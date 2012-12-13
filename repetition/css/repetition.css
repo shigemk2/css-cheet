@@ -1,0 +1,14 @@
+dl {
+    padding: 0;
+    margin-bottom: 50px;
+}
+dt {
+    font-weight: bold;
+    font-size: 20px;
+    font-style: oblique;
+}
+dd {
+    /* -webkit-margin-start: 0px; */
+    font-size: 15px;
+}
+

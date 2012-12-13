@@ -19,6 +19,9 @@ h2 {
     -webkit-margin-end: 0px;
     font-weight: normal;
 }
+div.hoge {
+    text-align: right;
+}
 div.hoge img{
     margin-left: 10px;
     float: right;
