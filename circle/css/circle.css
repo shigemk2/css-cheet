@@ -1,0 +1,20 @@
+.circle {
+  border: solid 1px black;
+  border-color: black;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+}
+
+.inner-circle {
+  border: solid 1px black;
+  border-color: black;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  position: relative;
+  top: 25px;
+  left: 25px;
+  background-color: white;
+}
+
