@@ -6,15 +6,87 @@
   width: 200px;
 }
 
-.inner-circle {
+.circle-red {
+  border-color: black;
+  border-radius: 0 100px 0 0;
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  top: -13px;
+  left: 60px;
+  background-color: red;
+}
+
+
+.circle-white1 {
+  /* border: solid 1px black; */
+  border-color: black;
+  border-radius: 0 100px 0 0;
+  -ms-transform: rotate(245.5deg);
+  -webkit-transform: rotate(245.5deg);
+  -moz-transform: rotate(245.5deg);
+  -o-transform: rotate(245.5deg);
+
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  top: 33px;
+  left: -8px;
+  background-color: white;
+}
+
+.circle-white2 {
   border: solid 1px black;
   border-color: black;
-  border-radius: 50%;
-  height: 150px;
-  width: 150px;
-  position: relative;
-  top: 25px;
-  left: 25px;
+  border-radius: 0 100px 0 0;
+  -webkit-transform-origin: 25% 25%;
+  -ms-transform: rotate(245.5deg);
+  -webkit-transform: rotate(245.5deg);
+  -moz-transform: rotate(245.5deg);
+  -o-transform: rotate(245.5deg);
+
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  top: 33px;
+  left: -8px;
   background-color: white;
+}
+.circle-yellow {
+  border-color: black;
+  border-radius: 0 100px 0 0;
+  -ms-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  top: 109px;
+  left: 8px;
+  background-color: yellow;
+  z-index: 999;
+}
+
+.circle-blue {
+  border-color: black;
+  border-radius: 0 100px 0 0;
+  -ms-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  top: 0px;
+  left: 100px;
+  background-color: blue;
 }
 
