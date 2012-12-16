@@ -52,6 +52,10 @@ function draw() {
     yellowOrange.beginPath();
     fan(70, 70, 70, 45, 30, "rgb(255, 192, 0)", "rgb(255, 192, 0)", true, yellowOrange);
 
+    var miniWhole = canvas.getContext('2d');
+    miniWhole.beginPath();
+    fan(70, 70, 50, 0, 360, "rgb(255, 255, 255)", "rgb(255, 255, 255)", true, miniWhole);
+
 }
 
 function fan(x, y, radius, tilt, angle, strokeColor, fillColor, bool, target) {
