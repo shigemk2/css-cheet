@@ -18,14 +18,40 @@ function draw() {
     var yellow = canvas.getContext('2d');
     yellow.beginPath();
     fan(70, 70, 70, 75, 30, "rgb(255, 255, 0)", "rgb(255, 255, 0)", true, yellow);
-
+    var limeGreen = canvas.getContext('2d');
+    limeGreen.beginPath();
+    fan(70, 70, 70, 105, 30, "rgb(0, 255, 128)", "rgb(0, 255, 128)", true, limeGreen);
+    var green =canvas.getContext('2d');
+    green.beginPath();
+    fan(70, 70, 70, 135, 30, "rgb(0, 255, 0)", "rgb(0, 255, 0)", true, green);
+    var aqua =canvas.getContext('2d');
+    aqua.beginPath();
+    fan(70, 70, 70, 165, 30, "rgb(0, 128, 128)", "rgb(0, 128, 128)", true, aqua);
     var blue = canvas.getContext('2d');
     blue.beginPath();
     fan(70, 70, 70, 195, 30, "rgb(0, 0, 255)", "rgb(0, 0, 255)", true, blue);
-
+    var bluishPurple = canvas.getContext('2d');
+    bluishPurple.beginPath();
+    fan(70, 70, 70, 225, 30, "rgb(128, 0, 255)", "rgb(128, 0, 255)", true, bluishPurple);
+    var purple =canvas.getContext('2d');
+    purple.beginPath();
+    fan(70, 70, 70, 255, 30, "rgb(128, 0, 128)", "rgb(128, 0, 128)", true, purple);
+    var violet =canvas.getContext('2d');
+    violet.beginPath();
+    fan(70, 70, 70, 285, 30, "rgb(255, 0, 128)", "rgb(255, 0, 128)", true, violet);
     var red = canvas.getContext('2d');
     red.beginPath();
     fan(70, 70, 70, 315, 30, "rgb(255, 0, 0)", "rgb(255, 0, 0)", true, red);
+    var redOrange = canvas.getContext('2d');
+    redOrange.beginPath();
+    fan(70, 70, 70, 345, 30, "rgb(255, 64, 0)", "rgb(255, 64, 0)", true, redOrange);
+    var orange = canvas.getContext('2d');
+    orange.beginPath();
+    fan(70, 70, 70, 15, 30, "rgb(255, 128, 0)", "rgb(255, 128, 0)", true, orange);
+    var yellowOrange = canvas.getContext('2d');
+    yellowOrange.beginPath();
+    fan(70, 70, 70, 45, 30, "rgb(255, 192, 0)", "rgb(255, 192, 0)", true, yellowOrange);
+
 }
 
 function fan(x, y, radius, tilt, angle, strokeColor, fillColor, bool, target) {
