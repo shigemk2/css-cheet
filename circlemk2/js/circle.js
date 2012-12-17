@@ -5,6 +5,7 @@ onload = function() {
 
 function draw() {
     var canvas = document.getElementById('fan');
+
     /* canvas要素の存在チェックとCanvas未対応ブラウザの対処 */
     if ( ! canvas || ! canvas.getContext ) {
         return false;
@@ -56,6 +57,25 @@ function draw() {
     miniWhole.beginPath();
     fan(70, 70, 50, 0, 360, "rgb(255, 255, 255)", "rgb(255, 255, 255)", true, miniWhole);
 
+    // 参考にしたコード
+    // http://jsdo.it/phi/9cRG
+    // http://hakuhin.jp/as/rotation.html
+    /*
+     * 定数
+     */
+    var SCREEN_WIDTH = 600;
+    var SCREEN_HEIGHT= 300;
+    var arrow = tm.graphics.Canvas("#arrow");
+    //幅, 高さを指定
+    arrow.resize(SCREEN_WIDTH, SCREEN_HEIGHT);
+    //画面にフィットさせる
+    arrow.fitWindow();
+    arrow.drawArrow(70, 70, 70, 20);
+    arrow.drawArrow(70, 70, 70, 120);
+    arrow.drawArrow(70, 70, 110, 100)
+    arrow.drawArrow(70, 70, 30, 40);
+    arrow.drawArrow(70, 70, 30, 100);
+    arrow.drawArrow(70, 70, 110, 40);
 }
 
 function fan(x, y, radius, tilt, angle, strokeColor, fillColor, bool, target) {
