@@ -1,0 +1,33 @@
+body {
+    text-align: center;
+    width: 600px;
+    height: 600px;
+    text-align: left;
+    padding-left: 0px;
+    box-shadow: 3px 3px 5px #000;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 15em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: normal;
+    /* color: white; */
+    color: #8b5a2b;
+    /* background-color: black; */
+    padding: 15px;
+}
+div {
+    padding: 23px;
+    /* background-color: #8b795e; */
+}
+div.hoge {
+    text-align: right;
+}
+div.hoge img{
+    margin-left: 10px;
+    float: right;
+}
+
